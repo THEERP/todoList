@@ -1,0 +1,45 @@
+
+.todo-list{
+
+
+}
+.todo-list label{
+    display: block;
+
+    border-bottom: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 50%;
+margin:30px auto;
+
+}
+
+
+input[type="button"]{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+input[type="button"]:hover{
+    transition: 1s all ease-in-out;
+    color: red;
+}
+ul{
+ 
+    list-style: none;
+    padding-left: 0;
+}
+input[type="text"]{
+ 
+    width: 211px;
+    padding: 10px 15px;
+}
+ul li{
+    margin-bottom: 20px;
+}
